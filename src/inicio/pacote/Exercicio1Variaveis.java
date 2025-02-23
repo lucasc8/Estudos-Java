@@ -7,6 +7,8 @@ public class Exercicio1Variaveis {
         String endereco = "Rua alvares de cabral num 10";
         int salario = 1000;
         String data = "03/10/2023";
-        System.out.println("Eu, " + nome + ", confirmo que recebi o salário de " + salario + ", no endereco "+ endereco + ", na data de " + data + ".");
+        String relatorio = "Eu, " + nome + ", confirmo que recebi o salário de " + salario + ", no endereco "+ endereco + ", na data de " + data + ".";
+        System.out.println(relatorio);
     }
 }
+
