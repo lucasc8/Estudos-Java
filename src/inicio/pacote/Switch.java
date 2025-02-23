@@ -15,5 +15,24 @@ public class Switch {
             default: System.out.println("Opção Invalida");
             break;
         }
+        int contador = 0;
+        for (int count = 0; count < 3; count++){
+            System.out.println("For");
+        }
+        do {
+            System.out.println("Do");
+            contador++;
+        } while (contador == 0);
+        while(contador < 5) {
+            System.out.println(contador);
+            contador++;
+        }
+
+
+
+
+
+
+
     }
 }
