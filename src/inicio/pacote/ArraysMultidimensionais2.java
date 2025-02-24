@@ -9,7 +9,6 @@ class ArraysMultidimensionais2 {
         arrayInt[1] = new int[]{1,3,4};
         arrayInt[2] = arrayz;
 
-
         for(int[] arrayBase : arrayInt){
             System.out.println("\n------");
             for(int num : arrayBase){
@@ -17,6 +16,6 @@ class ArraysMultidimensionais2 {
             }
         }
 
-        int[][] arrayInt2 = {{1,2,3}, {1,2,3},{1,4,5,6}}
+        int[][] arrayInt2 = {{1,2,3}, {1,2,3},{1,4,5,6}};
     }
 }
