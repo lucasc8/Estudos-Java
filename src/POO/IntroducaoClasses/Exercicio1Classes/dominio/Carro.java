@@ -1,4 +1,4 @@
-package POO.IntroducaoClasses.Exercicio1Classes;
+package POO.IntroducaoClasses.Exercicio1Classes.dominio;
 
 public class Carro {
     //crie uma classe Carro com os atributos Nome Modelo Ano

@@ -1,4 +1,6 @@
-package POO.IntroducaoClasses.Exercicio1Classes;
+package POO.IntroducaoClasses.Exercicio1Classes.teste;
+
+import POO.IntroducaoClasses.Exercicio1Classes.dominio.Carro;
 
 public class CarroTeste {
     public static void main(String[] args) {
