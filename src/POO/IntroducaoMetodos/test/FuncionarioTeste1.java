@@ -26,7 +26,7 @@ public class FuncionarioTeste1 {
         funcionario2.imprimir();
         funcionario3.imprimir();
 
-        System.out.println(funcionario1.mediaSalarios(1500,400,800));
+        // System.out.println(funcionario1.mediaSalarios(1500,400,800));
 
         calculadora.Media(funcionario1,funcionario2,funcionario3);
     }
