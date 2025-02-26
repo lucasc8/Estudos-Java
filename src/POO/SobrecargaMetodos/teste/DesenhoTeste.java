@@ -4,8 +4,8 @@ import POO.SobrecargaMetodos.dominio.Desenho;
 
 public class DesenhoTeste {
     public static void main(String[] args) {
-        Desenho desenho1 = new Desenho();
-        Desenho desenho2 = new Desenho();
+        Desenho desenho1 = new Desenho("Dragon Ball");
+        Desenho desenho2 = new Desenho("Naruto");
 
         desenho1.setNome("naruto");
         desenho1.setEps(300);
@@ -21,7 +21,11 @@ public class DesenhoTeste {
         System.out.println("------------------");
         desenho2.init("Dragon Ball", 537,"Ação",789);
         desenho2.imprime();
+        System.out.println("------------------");
 
+        System.out.println("------------------");
+        Desenho desenho3 = new Desenho("Thundercats");
+        desenho3.imprime();
 
 
     }

@@ -6,6 +6,9 @@ public class Desenho {
     public int faixaetaria;
     public String genero;
 
+    public Desenho(String nome){
+    }
+
     public String getGenero() {
         return genero;
     }
@@ -24,9 +27,9 @@ public class Desenho {
 
     public void imprime(){
         System.out.println(this.nome);
-        System.out.println(this.eps);
+        /*System.out.println(this.eps);
         System.out.println(this.genero);
-        System.out.println(this.faixaetaria);
+        System.out.println(this.faixaetaria);*/
     }
 
     public void init(String nome, int eps){
