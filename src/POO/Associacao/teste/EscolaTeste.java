@@ -12,7 +12,7 @@ public class EscolaTeste {
         escola1.setProfessores(professores);
         escola1.imprimir();
 
-        
+
 
 
     }
