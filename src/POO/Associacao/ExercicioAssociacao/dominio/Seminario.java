@@ -8,24 +8,18 @@ public class Seminario {
     private Local local;
     private String titulo;
 
-
-
     public Seminario( Local local, String titulo){
         this.local = local;
         this.titulo = titulo;
     }
     public void imprime(){
-        System.out.println(this.titulo);
-        System.out.println(local.getNome());
-        for (Aluno alunos : aluno){
-            System.out.println(alunos.getNome());
+        System.out.println("Título Seminário: "+this.titulo);
+        System.out.println("Local: "+local.getNome());
+        System.out.print("Alunos: ");
+        for (Aluno alunos : this.aluno){
+            System.out.print(alunos.getNome()+" ");
         }
-
-
-
-
     }
-
     public Aluno[] getAluno() {
         return aluno;
     }
