@@ -1,9 +1,16 @@
 package POO.Heranca.dominio;
 
+import jdk.jshell.EvalException;
+
 public class Pessoa {
-    private String nome;
-    private int cpf;
-    private String endereco;
+    public String nome;
+    protected int cpf;
+    protected String endereco;
+    public String teste;
+
+    public Pessoa(String nome){
+        this.nome = nome;
+    }
 
     public void setNome(String nome){
         this.nome = nome;
@@ -14,6 +21,14 @@ public class Pessoa {
     }
 
     public void imprimir(){
-        System.out.println("codigo 1");
+        System.out.println(this.nome);
+        System.out.println(this.cpf);
+    }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "nome='" + this.nome + '\'' +
+                '}';
     }
 }
