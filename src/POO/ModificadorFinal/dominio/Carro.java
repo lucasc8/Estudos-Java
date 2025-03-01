@@ -10,6 +10,10 @@ public class Carro {
     // não pode ter mais de uma instancia
     // ex carro1.COMPRADOR = COMPRADOR2;
 
+    public Carro(String nome) {
+        this.nome = nome;
+    }
+
     public final void imprimir(){
         System.out.println(this.nome);
     }

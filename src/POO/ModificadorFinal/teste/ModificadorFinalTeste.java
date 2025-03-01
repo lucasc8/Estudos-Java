@@ -2,12 +2,11 @@ package POO.ModificadorFinal.teste;
 
 import POO.ModificadorFinal.dominio.Carro;
 import POO.ModificadorFinal.dominio.Comprador;
-import POO.ModificadorFinal.dominio.Ferrari;
 
 public class ModificadorFinalTeste
     {
         public static void main(String[] args) {
-            Carro carro1 = new Carro();
+            Carro carro1 = new Carro("A");
 
             System.out.println(Carro.VELOCIDADE_LIMITE);
 
@@ -18,10 +17,10 @@ public class ModificadorFinalTeste
 
             carro1.COMPRADOR.setNome("Jesus");
             System.out.println(carro1.COMPRADOR.getNome());
-
-            Ferrari ferrari = new Ferrari();
-            ferrari.setNome("Ferrari daora vermelha vruum");
-            ferrari.imprimir();
+            comprador2.setNome("a");
+            //Ferrari ferrari = new Ferrari();
+            //ferrari.setNome("Ferrari daora vermelha vruum");
+            //ferrari.imprimir();
 
         }
 }
